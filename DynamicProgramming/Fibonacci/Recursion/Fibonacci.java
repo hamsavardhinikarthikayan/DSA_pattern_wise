@@ -15,6 +15,6 @@ public class Fibonacci {
         System.out.println("count:" + count); // count :177
 
         System.out.println(fib(20)); //6765
-        System.out.println("count:" + count); // count :22068
+        System.out.println("count:" + count); // count :21891
     }
 }
