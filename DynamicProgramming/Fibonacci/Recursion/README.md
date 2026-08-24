@@ -1,1 +1,1 @@
-
+The naive recursive approach has a time complexity of \(O(2^n)\). This is because each call splits into a tree of two recursive calls. Because the tree has a depth of n, the work roughly doubles at each level, causing an exponential explosion. This happens because of massive redundant work—we recalculate the exact same subproblems over and over again.To fix this, we can use Dynamic Programming. By caching the results using memoization, we eliminate the duplicate work and bring the time complexity down to a linear O(n).
